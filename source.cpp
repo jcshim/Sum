@@ -1,7 +1,7 @@
 #include<stdio.h>
-int sum(int a, int b) {
+double sum(double a, double b) {
 	return a + b;
 }
 int main() {
-	printf("%d\n", sum(2, 3));
+	printf("%3.1lf\n", sum(2.1, 3.1));
 }
